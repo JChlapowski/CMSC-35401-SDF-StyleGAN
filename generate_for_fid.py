@@ -11,7 +11,7 @@ args = parser.parse_args()
 
 
 model_path = args.model_path
-fid_root = "./fid_temp" + args.name
+fid_root = "./fid_temp/" + args.name
 
 model = StyleGAN2_3D.load_from_checkpoint(model_path).cuda(0)
 model.eval()
