@@ -33,7 +33,7 @@ size = 128         # resolution of SDF
 level = 0.015      # 2/128 = 0.015625
 shape_scale = 0.5  # rescale the shape into [-0.5, 0.5]
 project_folder = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
-root_folder = os.path.join(project_folder, 'data/ShapeNet')
+root_folder = os.path.join(project_folder, 'CMSC-35401-SDF-StyleGAN','data/ShapeNet')
 
 
 def create_flag_file(filename):
