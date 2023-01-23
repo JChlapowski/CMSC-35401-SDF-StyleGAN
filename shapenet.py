@@ -124,7 +124,7 @@ def run_mesh2sdf():
   for i in tqdm(range(args.start, args.end), ncols=80):
     filename = filenames[i]
     filename_raw = os.path.join(
-        root_folder, 'ShapeNetCore.v1', filename, 'model.obj')
+        root_folder, 'BottleNet', filename, 'model.obj')
     filename_obj = os.path.join(root_folder, 'mesh', filename + '.obj')
     filename_box = os.path.join(root_folder, 'bbox', filename + '.npz')
     filename_npy = os.path.join(root_folder, 'sdf', filename + '.npy')
