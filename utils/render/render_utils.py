@@ -1,5 +1,5 @@
 import os
-os.environ['PYOPENGL_PLATFORM'] = 'egl'
+#os.environ['PYOPENGL_PLATFORM'] = 'egl'
 import matplotlib
 matplotlib.use("Agg")
 import pyglet
